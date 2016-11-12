@@ -1,0 +1,42 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'Loyalty' do
+  
+  # Http
+  pod 'Alamofire', '3.5.1'
+  
+  # Views
+  pod 'MBProgressHUD', '1.0.0'
+
+  # Utility
+  # pod 'FastttCamera', '0.3.4'
+  # pod 'PhoneNumberKit', '0.8.5'
+  # pod 'libPhoneNumber-iOS', '0.8.16'
+  pod 'Atlantis', '1.1.2'
+  pod 'SwiftyTimer', '1.4.1'
+  pod 'Signals', '3.0.0'
+  pod 'AsyncSwift', '1.7.3'
+  pod 'ObjectMapper', '1.4.0'
+  pod 'SwiftyJSON', '2.3.2'
+  
+  # Persistent Data
+  pod 'Pantry', '0.2.2'
+  
+  # Image Processing
+  pod 'Tide', '1.2.7'
+  
+  # Date Processing
+  pod 'SwiftDate', '3.0.8'
+  
+  # Layouts
+  pod 'Neon', '0.2.0'
+  
+  # UI
+  pod 'UIColor_Hex_Swift', '2.1'
+
+end
+
+target 'LoyaltyTests' do
+end
